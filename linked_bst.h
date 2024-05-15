@@ -5,6 +5,7 @@ class Node {
         int key;
         Node* leftChild;
         Node* rightChild;
+        Node* parent;
         Node() {}
         Node(int d) : key(d), leftChild(nullptr), rightChild(nullptr) {}
         Node(int d, Node *leftChild, Node *rightChild) : key(d),leftChild(leftChild), rightChild(rightChild) {}
