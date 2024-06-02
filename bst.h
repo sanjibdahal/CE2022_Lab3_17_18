@@ -1,3 +1,5 @@
+// bst.h
+
 class BST{
     public:
         virtual bool isEmpty() = 0;
@@ -5,6 +7,3 @@ class BST{
         virtual bool removeBST(int keyToDelete) = 0;
         virtual bool searchBST(int targetKey) = 0;
 };
-
-
-

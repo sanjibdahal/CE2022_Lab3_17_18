@@ -1,3 +1,5 @@
+// linked_bst.h
+
 #include "bst.h"
 
 class Node {
@@ -16,7 +18,7 @@ class LinkedBST : public BST {
         Node *root;
     public:
         LinkedBST();
-        ~LinkedBST() {};
+        ~LinkedBST();
         bool isEmpty();
         void addBST(int data);
         bool removeBST(int keyToDelete);
