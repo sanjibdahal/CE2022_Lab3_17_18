@@ -2,14 +2,17 @@
 
 #### To run the BST
 **Clone the repository**
+```bash
+git clone https://github.com/sanjibdahal/CE2022_Lab3_17_18.git
+```
 
 **For ArrayBST**
-```bash
+```cpp
 g++ -I include main.cpp src/array_bst.cpp
 ```
 
 **For LinkedBST**
-```bash
+```cpp
 cd queue
 g++ -I include main.cpp src/linked_bst.cpp
 ```
