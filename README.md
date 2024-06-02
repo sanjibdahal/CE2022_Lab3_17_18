@@ -7,12 +7,11 @@ git clone https://github.com/sanjibdahal/CE2022_Lab3_17_18.git
 ```
 
 **For ArrayBST**
-```cpp
+```bash
 g++ -I include main.cpp src/array_bst.cpp
 ```
 
 **For LinkedBST**
-```cpp
-cd queue
+```bash
 g++ -I include main.cpp src/linked_bst.cpp
 ```
